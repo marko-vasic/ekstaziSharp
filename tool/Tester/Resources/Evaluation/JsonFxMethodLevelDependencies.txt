@@ -1,0 +1,39 @@
+{
+  "TestSource": "RemoteRepository",
+  "BuildStrategyType": "MSBuild14",
+  "DependencyManagerType": "Nuget",
+  "RepositoryURL": "https://github.com/jsonfx/jsonfx.git",
+  "SolutionPath": "JsonFx.sln",
+  "Commits": [
+    "1c72c653a2c93b9733e1505417b8ff20ab483b68",
+    "b4f351deefeb03ca32a987f07a99960a239d245f",
+    "6dd3fa025683936fe6e1e9d33802400f5b58a41b",
+    "a219279b079868bd3bfd17cb4b8aac04c93bdf1e",
+    "ac8c113d061d147abfbcf5242a9dddf04a341cb4",
+    "73521fd042004c21b7b297ac5060f4fa91e7cf7c",
+    "6b684b776a830f99b4d8beb33169c106767112ce",
+    "2793ce4a7488934d192ed89377bec3c36df236f8",
+    "46fa8a6d38c49a807b2260623661a24f4c15ae71",
+    "2b431e7758eefae5c993937fbaec6ec7414ea377",
+    "24a7204fec65b3318f96aeba2dbbbbec1398d6e5",
+    "bebad51d6c61188dd348b5951716b863aa6a91cc",
+    "46d795ac39fadfa56b1395783453b789f9a5847c",
+    "3fa7bc397b8e3df9c484ab63123bd1950c4036f4",
+    "77114e78646b10af4970c78e1a324f38976fc020",
+    "373ad3e6b8dae1b324ef4dbc1b6046d3f2d37f53",
+    "fe61ab2310b750ca5ca4ba1f4633d0c7753dd320",
+    "e4dd8660ef8b2f6e94201f1666a8a492120459e7",
+    "19118382a51059496b13dc600f7656a2b9837916",
+    "766ed0d1f4f363c1ad6ac828248b6834d3e1532e"
+  ],
+  "ProgramModules": [
+    "build\\Tests\\Debug_v4.0\\JsonFx.dll"
+  ],
+  "TestModules": [
+    "build\\Tests\\Debug_v4.0\\JsonFx.Tests.dll"
+  ],
+  "TestingFramework": "XUnit1",
+  "InstrumentationStrategy": "InstanceConstructor",
+  "Debug": true,
+  "DependencyCollectionGranularity": "Method"
+}

@@ -1,0 +1,4 @@
+﻿{
+  "toRun": [ "Comments.Test" ],
+  "methodsToRun": [ "Comments.Test.TestMethod" ]
+}

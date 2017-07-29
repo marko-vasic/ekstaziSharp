@@ -1,0 +1,15 @@
+{
+  "TestSource": "RemoteRepository",
+  "BuildStrategyType": "MSBuild14",
+  "DependencyManagerType": "None",
+  "RepositoryURL": "https://github.com/sailro/Dexer.git",
+  "SolutionPath": "Dexer.sln",
+  "Commits": [
+    "83ade7763e7d6d667a9db3e2775edd943cffe64d"
+  ],
+  "ProgramModules": ["ToFill"],
+  "TestModules": ["ToFill"],
+  "TestingFramework": "VisualStudio",
+  "InstrumentationStrategy": "InstanceConstructor",
+  "Debug": true
+}

@@ -1,0 +1,11 @@
+{
+  "TestSource": "RemoteRepository",
+  "RepositoryURL": "https://github.com/gsscoder/commandline.git",
+  "SolutionPath": "CommandLine.sln",
+  "Commits": [
+    "0818eecb63781556440304728c4a0241cf4fa905"  	     
+  ],
+  "ModulesUnderTest": [""],
+  "TestModules": [""],
+  "TestingFramework": "XUnitV2"
+}

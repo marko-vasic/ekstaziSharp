@@ -1,0 +1,38 @@
+{
+  "TestSource": "RemoteRepository",
+  "BuildStrategyType": "MSBuild14",
+  "DependencyManagerType": "Nuget",
+  "RepositoryURL": "https://github.com/JamesNK/Newtonsoft.Json.git",
+  "SolutionPath": "Src\\Newtonsoft.Json.Net40.sln",
+  "Commits": [
+    "218c25c859536613258fa2fd41c4209719ad75ea",
+    "260dfedac53c30a3b9b6b372d622f679ebdb7535",
+    "0b187df8cb1b00f246d048d4502bc3147607be2f",
+    "f663060005b2ad24b8190c223e6ea8faab07515f",
+    "211b3b0db26fc4beb0c057fd00361a6c1e784c35",
+    "5bd69fe8be120b01a057fbfffaaf3bb1d0ae22f2",
+    "a95665b4818b1160dcdddf9769f080616548d56c",
+    "4db6579593b50487d70421b0b2d092b6b8f778e3",
+    "008a3c7655f9c8acff65fd0cfeed93bc5f53821f",
+    "d408066f64bc14ecd5fed4d10ae507edfa17ec40",
+    "306c3a812b9ba5caa1623faaf1e4db3366cf0782",
+    "60651dbd59dc63e34d86ea3ae6bda7e08600ccb5",
+    "1a702986960687fb825f77329c8d3eadc3448a20",
+    "f5c64fdd09c44eb27527a235c69688fac6a69bd1",
+    "896448860a779c7ad4ea657085291154d4576e84",
+    "c003ad0d9893d9d178a403fc5eacf53926f0ed5d",
+    "32d8b4a68a6d1848c3268be5c4bb34a9fa5d5ee5",
+    "dbc7374995f70820b21355fa1db03c62c10df56c",
+    "e08d1f752462260837445399626bba3b09f31f75",
+    "5bd4521b532b778946cd606ef078f232919838f0"
+  ],
+  "ProgramModules": [
+    "Src\\Newtonsoft.Json.Tests\\bin\\Debug\\Net40\\Newtonsoft.Json.dll"
+  ],
+  "TestModules": [
+    "Src\\Newtonsoft.Json.Tests\\bin\\Debug\\Net40\\Newtonsoft.Json.Tests.dll"
+  ],
+  "TestingFramework": "NUnit2",
+  "InstrumentationStrategy": "None",
+  "Debug": true
+}

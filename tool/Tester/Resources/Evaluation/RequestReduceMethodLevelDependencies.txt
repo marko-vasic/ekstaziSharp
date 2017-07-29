@@ -1,0 +1,41 @@
+{
+  "TestSource": "RemoteRepository",
+  "BuildStrategyType": "MSBuild14",
+  "DependencyManagerType": "Nuget",
+  "RepositoryURL": "https://github.com/mwrock/RequestReduce.git",
+  "SolutionPath": "RequestReduce.sln",
+  "Commits": [
+    "ddd623b5ee7a4cdcff0505da8c1baea1eb2f778f",
+    "2d6fec822ff0a16ac155047bc475048e513d439d",
+    "fe4f794336e7d347afcf92ab02557750157f198d",
+    "817fe7eee1dbe94b5b1f920abc3f63c5e0fb9efc",
+    "35378a1a07e6bdd1914eb41b0519f26f71d367ae",
+    "f7dbd14c4c0b24d8a837eb7f58daaf2485836562",
+    "5f7958c643e3a2fa7961f2ec127ee5516c5019a7",
+    "9515c1a28057e120fe935a57d8154bc2d280d8f6",
+    "562309a836b011d0c4f7ed8ab1251f87efc768e1",
+    "9665073e80a84ee2ac4099cc269b110c23480d6c",
+    "6e0869bd68c547adbad93d79c431c5318fd181f2",
+    "e275c9cccc4a663112e0f1446d55fd874746cecd",
+    "54e75b821ce3692466783c615af09c09af8b7d36",
+    "ed1e712341f357cea372b4e7e031e5610a9b4576",
+    "4c0231be1e9dd5b2c52f866b32f2f15c0c440e2f",
+    "0be68492e746c6dfeb727f65cc88d2d03d82b8ab",
+    "c2a26fca12b51f2fdcd472901bbec6323ec8d43b",
+    "338ca03fefd95189e698ea822a2e92e98c876a77",
+    "4b864d664ea58d1c28c3bfd4d203381969d86fb1",
+    "10e3117a6f2e5dba18ce9189c429e28160a6798f"
+  ],
+  "ProgramModules": [
+    "RequestReduce.Facts\\bin\\Debug\\RequestReduce.dll",
+    "RequestReduce.Facts\\bin\\Debug\\RequestReduce.SassLessCoffee.dll",
+    "RequestReduce.Facts\\bin\\Debug\\RequestReduce.SqlServer.dll"
+  ],
+  "TestModules": [
+    "RequestReduce.Facts\\bin\\Debug\\RequestReduce.Facts.dll"
+  ],
+  "TestingFramework": "XUnit1",
+  "InstrumentationStrategy": "InstanceConstructor",
+  "Debug": true,
+  "DependencyCollectionGranularity": "Method"
+}

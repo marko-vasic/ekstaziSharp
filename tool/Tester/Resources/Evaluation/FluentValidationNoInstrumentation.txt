@@ -1,0 +1,39 @@
+{
+  "TestSource": "RemoteRepository",
+  "BuildStrategyType": "MSBuild14",
+  "DependencyManagerType": "Dotnet",
+  "RepositoryURL": "https://github.com/JeremySkinner/FluentValidation.git",
+  "SolutionPath": "FluentValidation.sln",
+  "ProjectFilePath": "src\\FluentValidation.Tests\\FluentValidation.Tests.csproj",
+  "Commits": [
+    "445f6390f31b4851efb274cef6bddac184c873f7",
+    "cf8c5e891e25925f48072a236a3a8bd858aea397",
+    "0e07deaf94a3d49b510e44a8be0c6a486f3136c4",
+    "f95bf0c64500b0702c280fe767908bdc22a3a2cc",
+    "66a8082a4de353e5d89e0285162e8519b47d6a97",
+    "b625131aff011119ecc1f078257edb22db2621cb",
+    "14fc39ba3a730a5d79a7b5daf005b44133480ee9",
+    "c23aca8f6e96166e4efb56be6787d933d503b71c",
+    "8c6dffc2e9eead32a8be4f2a7a97994fed5b77c4",
+    "7915ee7719b64ecb61604e9619c5079a3a4c4027",
+    "25ce59342167c8d6b1102ba9332bf215e24d0a1c",
+    "e4ec1c78e38ab51fdc1827d5c54876e58e65d93b",
+    "3f464c7778c40d496b366c50c02ae07d20a7b395",
+    "17368999615252a68ec37c74630b4cb055ccd2b0",
+    "131f98507212976986c1508ec4bdd35e6aade5be",
+    "dbc2c3e3f9e4d5964506a5aeb21b5fba6d017ff2",
+    "f3cd1ad9e3206626f3c1dc46af0a3fe1957064fa",
+    "94cfa5a185ed6b54f1c9a7c1302e05da3fdd278b",
+    "08bf57f0721ade7ac4628f270676e409a7ccecf2",
+    "a81aea9d75ac09c8e6609b91e5d322fe174dd855"
+  ],
+  "ProgramModules": [
+    "src\\FluentValidation.Tests\\bin\\Debug\\FluentValidation.dll"
+  ],
+  "TestModules": [
+    "src\\FluentValidation.Tests\\bin\\Debug\\FluentValidation.Tests.dll"
+  ],
+  "TestingFramework": "XUnit2",
+  "InstrumentationStrategy": "None",
+  "Debug": true
+}

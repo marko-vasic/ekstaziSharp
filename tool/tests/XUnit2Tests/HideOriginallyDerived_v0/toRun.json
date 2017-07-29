@@ -1,0 +1,4 @@
+﻿{
+  "toRun": [ "HideOriginallyDerived.Test" ],
+  "methodsToRun": [ "HideOriginallyDerived.Test.TestMethod" ]
+}

@@ -1,0 +1,4 @@
+﻿{
+  "toRun": [ "CatchFilters.Test" ],
+  "methodsToRun": [ "CatchFilters.Test.TestMethod" ]
+}

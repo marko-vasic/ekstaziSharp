@@ -1,0 +1,4 @@
+﻿{
+  "toRun": [ "NestedClass.Test" ],
+  "methodsToRun": [ "NestedClass.Test.TestMethod" ]
+}

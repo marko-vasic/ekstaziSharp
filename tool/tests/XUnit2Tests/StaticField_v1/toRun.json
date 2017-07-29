@@ -1,0 +1,4 @@
+﻿{
+  "toRun": [ "StaticField.Test" ],
+  "methodsToRun": [ "StaticField.Test.TestMethod" ]
+}

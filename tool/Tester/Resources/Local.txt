@@ -1,0 +1,12 @@
+{
+  "TestSource": "LocalProject",
+  "ProjectPath": "C:\\Users\\vasic\\.ekstaziSharp\\repositories\\https_github.com_JeremySkinner_FluentValidation",
+  "BuildStrategyType": "Script",
+  "BuildScriptPath": "C:\\Users\\vasic\\.ekstaziSharp\\repositories\\https_github.com_JeremySkinner_FluentValidation\\mine.cmd",
+  "ProgramModules": ["src\\FluentValidation.Tests\\bin\\Debug\\FluentValidation.dll"],
+  "TestModules": ["src\\FluentValidation.Tests\\bin\\Debug\\FluentValidation.Tests.dll"],
+  "TestingFramework": "XUnit2",
+  "InstrumentationStrategy": "InstanceConstructor",
+  "OutputDirectory": "C:\\Users\\vasic\\.ekstaziSharp\\repositories\\https_github.com_JeremySkinner_FluentValidation",
+  "InputDirectory": "C:\\Users\\vasic\\.ekstaziSharp\\repositories\\https_github.com_JeremySkinner_FluentValidation"
+}

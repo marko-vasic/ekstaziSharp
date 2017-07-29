@@ -1,0 +1,4 @@
+﻿{
+  "toRun": [ "InstanceMethod.Test" ],
+  "methodsToRun": [ "InstanceMethod.Test.TestMethod" ]
+}

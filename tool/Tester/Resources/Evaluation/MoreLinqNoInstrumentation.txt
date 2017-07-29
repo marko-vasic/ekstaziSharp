@@ -1,0 +1,38 @@
+{
+  "TestSource": "RemoteRepository",
+  "BuildStrategyType": "MSBuild14",
+  "DependencyManagerType": "Dotnet",
+  "RepositoryURL": "https://github.com/morelinq/MoreLINQ.git",
+  "SolutionPath": "MoreLinq.sln",
+  "Commits": [
+    "d987f0ef30390a9b66d5cc608e5e39648d26097a",
+    "1380e25baf178c11fd7a8d4fc69a307b6bcd4fc4",
+    "2d2c8d09cade4dc1cf991967bc23bc18c2e80a94",
+    "ada35a542d975747ac8be4e37a019595ba6f4190",
+    "d39873278b87d753dcb77e0a9e7d8036dfa108d8",
+    "5d36a81c9b6be0f625d9511d58a72d8f302b8f27",
+    "96d3ac2ea4428b7e752a9afc91408f950b43da49",
+    "7b8551c5b4bd30d6e3f67fd5d456b8ee7f4f1ec6",
+    "07a3420b48ef2af28295cb21f794870b763cffb7",
+    "b83f6045a638cdfca82f3d51782a0d348e045ee1",
+    "55217f4d15d4f325de8cee218d68f27934aa3d5d",
+    "155fbcfcb809d50cf770e9206775a039ca02c35a",
+    "a5173d9d1c880ae0125a968dcda549d8b05b3c41",
+    "7c0a0f9f03de696c9feb010adbc296c45ad586e8",
+    "2772af00f67c9f13356e96318685a1ac0eb8166d",
+    "4eca397a400e4c30246ecaea080d688d9ddb953e",
+    "c9e3c09b738ce162d4a90e8d16edcba4732ea46d",
+    "a2fbc31d007dd3ea17c8001f7262a385b043343e",
+    "5f391e27b4e61c6dd9de50f236ea44c1d695aab1",
+    "949e9da4b04b1cacc27fcad604f9fe4efad2108a"
+  ],
+  "ProgramModules": [
+    "MoreLinq.Test\\bin\\debug\\net451\\win7-x64\\MoreLinq.dll"
+  ],
+  "TestModules": [
+    "MoreLinq.Test\\bin\\debug\\net451\\win7-x64\\MoreLinq.Test.dll"
+  ],
+  "TestingFramework": "NUnit3",
+  "InstrumentationStrategy": "None",
+  "Debug": true
+}

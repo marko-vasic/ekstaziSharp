@@ -1,0 +1,4 @@
+﻿{
+  "toRun": [ "FactInheritance.TestFact", "FactInheritance.TestTheory" ],
+  "methodsToRun": [ "FactInheritance.TestFact.TestMethod", "FactInheritance.TestTheory.TestMethod" ]
+}

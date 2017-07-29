@@ -1,0 +1,4 @@
+﻿{
+  "toRun": [ "NonPublicTestClass.PublicTestClass" ],
+  "methodsToRun": [ "NonPublicTestClass.PublicTestClass.TestMethod" ]
+}

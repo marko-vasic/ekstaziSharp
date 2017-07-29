@@ -1,0 +1,4 @@
+﻿{
+  "toRun": [ "PartialClass.PartialClassTest" ],
+  "methodsToRun": [ "PartialClass.PartialClassTest.TestMethod" ]
+}

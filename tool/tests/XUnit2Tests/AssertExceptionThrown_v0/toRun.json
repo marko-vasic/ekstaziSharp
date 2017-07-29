@@ -1,0 +1,4 @@
+﻿{
+  "toRun": [ "AssertExceptionThrown.Test" ],
+  "methodsToRun": [ "AssertExceptionThrown.Test.TestMethod" ]
+}

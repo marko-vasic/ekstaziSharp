@@ -1,0 +1,4 @@
+﻿{
+  "toRun": [ "SwitchBlock.Test" ],
+  "methodsToRun": [ "SwitchBlock.Test.TestMethod" ]
+}

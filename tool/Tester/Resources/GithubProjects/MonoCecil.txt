@@ -1,0 +1,11 @@
+{
+  "TestSource": "RemoteRepository",
+  "RepositoryURL": "https://github.com/mono/cecil.git",
+  "SolutionPath": "Mono.Cecil.sln",
+  "Commits": [
+  "8a3eedc7ff08fd30484da5874d1e18db9f3ff7ab"
+  ],
+  "ModulesUnderTest": ["Test\\bin\\net_3_5_Debug\\Mono.Cecil.dll"],
+  "TestModules": ["Test\\bin\\net_3_5_Debug\\Mono.Cecil.Tests.dll"],
+  "TestingFramework": "NUnitV2"
+}

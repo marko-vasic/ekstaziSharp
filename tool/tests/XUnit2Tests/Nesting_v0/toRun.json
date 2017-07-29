@@ -1,0 +1,4 @@
+﻿{
+  "toRun": [ "Nesting.Test" ],
+  "methodsToRun": [ "Nesting.Test.TestMethod" ]
+}

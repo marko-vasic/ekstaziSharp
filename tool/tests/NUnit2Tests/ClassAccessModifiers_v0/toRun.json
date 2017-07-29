@@ -1,0 +1,4 @@
+﻿{
+  "toRun": [ "ClassAccessModifiers.Test" ],
+  "methodsToRun": [ "ClassAccessModifiers.Test.M1", "ClassAccessModifiers.Test.M2" ]
+}

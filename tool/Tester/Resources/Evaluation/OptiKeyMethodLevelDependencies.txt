@@ -1,0 +1,39 @@
+{
+  "TestSource": "RemoteRepository",
+  "BuildStrategyType": "MSBuild14",
+  "DependencyManagerType": "Nuget",
+  "RepositoryURL": "https://github.com/OptiKey/OptiKey.git",
+  "SolutionPath": "OptiKey.sln",
+  "Commits": [
+    "84ea4049a4c2c9ae0aa8ebddf21cdee67eeb0898",
+    "cf693a1a4956786672b98704edd318d729d5e667",
+    "cb4d26f40db5e7f3243c29e3d2c25779c4670e57",
+    "d98da0769030ffcda2f634ae1534c3df7b930286",
+    "1a49a4349060f584630786ea19a1b16c98cd5ade",
+    "2b83541ba765f2169b4cf0a9b3678291710d6aeb",
+    "3e543d2a1b79e85ede5070e9b346088f6991c6e8",
+    "b9fc38776260004ca76eb5d46dbcd374bbbc71a5",
+    "c7d94fd5ea0065bf6ac0e05aa0a87951f61df329",
+    "5e76ca0fa33816637b13152157648e016c64c5ea",
+    "dfbb6a7a3f7589f66d8c95c8825c089be57e5d39",
+    "4093ab033432b8484b4038da782d2546cf329ea3",
+    "f6a3ab330de6d430595f68d61e6f90e76b103add",
+    "8d1fa0d1fd5e381b4ea7a1da4ad302916fbbee9d",
+    "52291636c1733bb9b3ae0fcee579eb17fcee1680",
+    "eb36a046787beb62fa56c74bac68db1c96ac6033",
+    "6f87d3a0d2ab98d3c7d8fec86c7fd6c66d1103ce",
+    "e7a3558cfe5dd54599c37ad058cea2924a49c529",
+    "440f9efae7e9b66f99256fe9b6b729a850d6e335",
+    "cfa7fd8049b8df0bfb608baf315e29bd7969ad8c"
+  ],
+  "ProgramModules": [
+    "src\\JuliusSweetland.OptiKey.UnitTests\\bin\\Debug\\OptiKey.exe"
+  ],
+  "TestModules": [
+    "src\\JuliusSweetland.OptiKey.UnitTests\\bin\\Debug\\JuliusSweetland.OptiKey.UnitTests.dll"
+  ],
+  "TestingFramework": "NUnit2",
+  "InstrumentationStrategy": "InstanceConstructor",
+  "Debug": true,
+  "DependencyCollectionGranularity": "Method"
+}

@@ -1,0 +1,4 @@
+﻿{
+  "toRun": [ "TestClassInheritance.TestA", "TestClassInheritance.TestC", "TestClassInheritance.Test", "TestClassInheritance.Test1", "TestClassInheritance.Test2" ],
+  "methodsToRun": [ "TestClassInheritance.TestA.Method", "TestClassInheritance.TestC.Method", "TestClassInheritance.Test.Method", "TestClassInheritance.Test1.Method", "TestClassInheritance.Test2.Method" ]
+}

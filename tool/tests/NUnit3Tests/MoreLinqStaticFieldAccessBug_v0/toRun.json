@@ -1,0 +1,4 @@
+﻿{
+  "toRun": [ "MoreLinqStaticFieldAccessBug.Test" ],
+  "methodsToRun":  [ "MoreLinqStaticFieldAccessBug.Test.Method"]
+}

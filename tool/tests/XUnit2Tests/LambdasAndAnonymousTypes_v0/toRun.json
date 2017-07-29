@@ -1,0 +1,4 @@
+﻿{
+  "toRun": [ "LambdasAndAnonymousTypes.Test" ],
+  "methodsToRun": [ "LambdasAndAnonymousTypes.Test.M1" ]
+}

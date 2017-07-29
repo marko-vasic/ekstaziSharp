@@ -1,0 +1,39 @@
+{
+  "TestSource": "RemoteRepository",
+  "BuildStrategyType": "MSBuild14",
+  "DependencyManagerType": "Nuget",
+  "RepositoryURL": "https://github.com/sjdirect/abot.git",
+  "SolutionPath": "Abot.sln",
+  "Commits": [
+    "c07b71af89dfa1c9a8f58c38eebef01d03af6c98",
+    "156e291afe0f0e80ee6d55adde3b74d8ac894305",
+    "fad6481d22d34c7a6bf6102cadc164d59c7597a5",
+    "7c0ef52112874f873a54387e38024cc264003053",
+    "6881ad42129831868edb9ad00766d0b6093786ea",
+    "d0e55962dc51d85f85ec73362e925958a29c19c7",
+    "70a5129dc888d3c90e2f4383cd1cbbe616196212",
+    "552eece0fa2ad49fb21c5b9413947dc6e6c58b88",
+    "b1792d720bb3dccf8d4850f4f92d4568a76a19e0",
+    "d9ddb94939a8c55fc09c73edc908b75085aa5c43",
+    "5e789eea62b880d67e4654474fabd212802290a6",
+    "4cc8290bbb034b02395e02b2a17aecb62c8a4fcf",
+    "22b0912b24df694edf4cc01ccba50f281a4ecaac",
+    "f6ee71b73520e1074e637cdaf2cae732c850a521",
+    "3315de1a13874bfa08894a363637fb35fa4b0b83",
+    "429239154440602be914d53f1bc47b269bb4ce44",
+    "599ff942f2433d147dbc4119a9ab01f94cd3a2e5",
+    "7298dbcc120e09fdee71c638f350ca6cc4268d0c",
+    "d3af11c5d1eba939e7aaf932f20a225a3ee47c6f",
+    "dfba777e47ef887b24b2b110b65ad6d8eb096802"
+  ],
+  "ProgramModules": [
+    "Abot.Tests.Unit/bin/Debug/Abot.dll"
+  ],
+  "TestModules": [
+    "Abot.Tests.Unit/bin/Debug/Abot.Tests.Unit.dll"
+  ],
+  "TestingFramework": "NUnit2",
+  "InstrumentationStrategy": "InstanceConstructor",
+  "Debug": true,
+  "DependencyCollectionGranularity": "Method"
+}

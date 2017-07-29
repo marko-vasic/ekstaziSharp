@@ -1,0 +1,4 @@
+﻿{
+  "toRun": [ "StaticMethod.Test" ],
+  "methodsToRun": [ "StaticMethod.Test.M1" ]
+}

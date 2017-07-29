@@ -1,0 +1,4 @@
+﻿{
+  "toRun": [ "ChangeLambda.Test" ],
+  "methodsToRun": [ "ChangeLambda.Test.TestMethod" ]
+}

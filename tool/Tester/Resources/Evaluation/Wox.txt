@@ -1,0 +1,15 @@
+{
+  "TestSource": "RemoteRepository",
+  "BuildStrategyType": "MSBuild14",
+  "DependencyManagerType": "Nuget",
+  "RepositoryURL": "https://github.com/Wox-launcher/Wox.git",
+  "SolutionPath": "Wox.sln",
+  "Commits": [
+    "70dab55dbc9fb0239ee634d0a734b2e94d429a91"
+  ],
+  "ProgramModules": ["ToPopulate"],
+  "TestModules": ["ToPopulate"],
+  "TestingFramework": "ToPopulate",
+  "InstrumentationStrategy": "InstanceConstructor",
+  "Debug": true
+}

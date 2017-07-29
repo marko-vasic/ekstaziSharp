@@ -1,0 +1,39 @@
+{
+  "TestSource": "RemoteRepository",
+  "BuildStrategyType": "MSBuild14",
+  "DependencyManagerType": "Nuget",
+  "RepositoryURL": "https://github.com/davideicardi/DynamicExpresso.git",
+  "SolutionPath": "DynamicExpresso.sln",
+  "Commits": [
+    "186219674dae44278b9ed6c662400fbdbeb65951",
+    "fedbb87667c3007e3a2e5b5709b48309de493c03",
+    "5295d97476eb9593ff371264db6a661a768db4e7",
+    "4e341850f620ce5b60d09dd18777db8418f7c27b",
+    "2adcca59ce5ba1fd1e1a931bc2bb9c11d2ee0036",
+    "7cd6bb9eba6e630c778d6e17a9179bfc94bf09c6",
+    "0f2b65c366f00174171a5913c446db27a3cc1efe",
+    "288c9cf112086269993f64a2478f0fde0e3b8936",
+    "e34a007ca3d91d2d17b67b490f5bfe7efed54475",
+    "bde13c9999c536a1abfd7a8a3f0d4bbd84bf0299",
+    "63c5a1f1c5da9b3b1c67899ffa09683c38d60e8e",
+    "b72f3878c79517e15800d3a85d160f289d5881f5",
+    "04f92a2669c6e602d85c8fd63118fce420e1ff24",
+    "92c32022399eb6a7ecb14bbc2bc1280b876d0d21",
+    "6dcfaa74d184d15c8e491c7baf71a2b26901c925",
+    "62fb1a078aca49109a69e736dcf7273dca40d940",
+    "a482dd4a3351da1b3ef9297d34df7741aa26d4b5",
+    "9364b214acaf5e5f40a30e991a095885aab1a034",
+    "3ab7c5384c169a5e17e1cda1f1da5cd0c4cca271",
+    "760996dae7cc6e7b97a8660ae886f8d3d94bbdb7"
+  ],
+  "ProgramModules": [
+    "test\\DynamicExpresso.UnitTest\\bin\\Debug\\DynamicExpresso.Core.dll"
+  ],
+  "TestModules": [
+    "test\\DynamicExpresso.UnitTest\\bin\\Debug\\DynamicExpresso.UnitTest.dll"
+  ],
+  "TestingFramework": "NUnit2",
+  "InstrumentationStrategy": "InstanceConstructor",
+  "Debug": true,
+  "NoSmartChecksums": "true"
+}

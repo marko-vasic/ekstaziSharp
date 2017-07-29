@@ -1,0 +1,40 @@
+{
+  "TestSource": "RemoteRepository",
+  "BuildStrategyType": "MSBuild14",
+  "DependencyManagerType": "Dotnet",
+  "RepositoryURL": "https://github.com/NancyFx/Nancy.git",
+  "SolutionPath": "Nancy.sln",
+  "ProjectFilePath": "test\\Nancy.Tests\\Nancy.Tests.xproj",
+  "Commits": [
+    "ef567c2930c7ff642a5c811810948df8dd3c7e25",
+    "1193188673353f0bf7ab4a11f08ad4f6871b02e6",
+    "ee02002072edaa890f633fbe8b5fd3b651443548",
+    "5e3efbc5d3bd216218e52c69146a172615ebac37",
+    "88f985fb70756b51ff305727121a32fdc04f4a32",
+    "9e3b0389594f0ca0f2d603d92a32944e4fd8017d",
+    "d60c086549259b2da5b6bd7546ff484765c5d727",
+    "3943452bb1dcb290d4eb9381989ce800fddf8380",
+    "2fb2c73951a523c77f75bdc9c60788b578188f0d",
+    "259935896be73740c6605464aa98567c8f1b5552",
+    "9e26b5760abe1c9a7df3081d9d76dc7c0c8a9454",
+    "c2aef9cd644e1850623b8ebf41706a5787568008",
+    "c91bfc608861d593d6f269fea73d38b0027592d1",
+    "692196b147fbc33e3c6d70372d3502969df71a4a",
+    "8e538397c8804c9f16d3ce8c15a70d4e0d0529a6",
+    "0d773083696f77a85012f9037841e41d03bfbd94",
+    "1cceacacbcbf3ab4bb47d63cfea190941c563e5c",
+    "376c4f7c2fa691b9f8e7ba37878a65fcdad991e2",
+    "72e1f6142efb01f91c5621750d8106bb6bc3f65e",
+    "cf7002318de6671e1adb906189a09fc7434d08e1"
+  ],
+  "ProgramModules": [
+    "test\\Nancy.Tests\\bin\\Debug\\net452\\win7-x64\\Nancy.dll",
+    "test\\Nancy.Tests\\bin\\Debug\\net452\\win7-x64\\Nancy.Testing.dll"
+  ],
+  "TestModules": [
+    "test\\Nancy.Tests\\bin\\Debug\\net452\\win7-x64\\Nancy.Tests.dll"
+  ],
+  "TestingFramework": "XUnit2",
+  "InstrumentationStrategy": "None",
+  "Debug": true
+}

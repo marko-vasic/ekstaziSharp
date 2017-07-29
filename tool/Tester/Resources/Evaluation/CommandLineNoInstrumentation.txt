@@ -1,0 +1,15 @@
+{
+  "TestSource": "RemoteRepository",
+  "BuildStrategyType": "MSBuild14",
+  "DependencyManagerType": "Dotnet",
+  "RepositoryURL": "https://github.com/gsscoder/commandline.git",
+  "SolutionPath": "CommandLine.sln",
+  "Commits": [
+    "e8cf96b969f0d77d66121ec76dea3f34e41c7929"
+  ],
+  "ProgramModules": ["tests\\CommandLine.Tests\\bin\\Debug\\CommandLine.dll"],
+  "TestModules": ["tests\\CommandLine.Tests\\bin\\Debug\\CommandLine.Tests.dll"],
+  "TestingFramework": "XUnit2",
+  "InstrumentationStrategy": "None",
+  "Debug": true
+}

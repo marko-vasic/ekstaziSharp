@@ -1,0 +1,4 @@
+﻿{
+  "toRun": [ "TestClassChanged.Test" ],
+  "methodsToRun": [ "TestClassChanged.Test.M1" ]
+}

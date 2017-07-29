@@ -1,0 +1,4 @@
+﻿{
+  "toRun": [ "MethodOrder.Test" ],
+  "methodsToRun": [ "MethodOrder.Test.TestMethod" ]
+}

@@ -1,0 +1,17 @@
+{
+  "TestSource": "RemoteRepository",
+  "BuildStrategyType": "MSBuild14",
+  "DependencyManagerType": "Nuget",
+  "RepositoryURL": "https://github.com/fsprojects/ProjectScaffold.git",
+  "SolutionPath": "FSharp.ProjectScaffold.sln",
+  "Commits": [
+    "d44f890c900351faeb106c74c07000cf9dd18ff8"
+  ],
+  "ProgramModules": [
+    "tests\\FSharp.ProjectTemplate.Tests\\bin\\Debug\\FSharp.ProjectTemplate.dll"
+  ],
+  "TestModules": ["tests\\FSharp.ProjectTemplate.Tests\\bin\\Debug\\FSharp.ProjectTemplate.Tests.dll"],
+  "TestingFramework": "NUnit2",
+  "InstrumentationStrategy": "InstanceConstructor",
+  "Debug": true
+}

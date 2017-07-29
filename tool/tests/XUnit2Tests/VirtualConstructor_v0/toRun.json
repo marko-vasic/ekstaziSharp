@@ -1,0 +1,4 @@
+﻿{
+  "toRun": [ "VirtualConstructor.Test" ],
+  "methodsToRun": [ "VirtualConstructor.Test.TestMethod" ]
+}

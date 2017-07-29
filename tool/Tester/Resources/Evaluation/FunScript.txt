@@ -1,0 +1,19 @@
+{
+  "TestSource": "RemoteRepository",
+  "BuildStrategyType": "Script",
+  "BuildScriptPath": "C:\\Users\\vasic\\buildFunScript.cmd",
+  "RepositoryURL": "https://github.com/ZachBray/FunScript.git",
+  "SolutionPath": "FunScript.sln",
+  "Commits": [
+    "823df8386317c67a053f890f833569c3da2ad0f3"
+  ],
+  "ProgramModules": [
+    "tests\\FunScript.Tests\\bin\\Debug\\FunScript.dll",
+    "tests\\FunScript.Tests\\bin\\Debug\\FunScript.Rx.dll",
+    "tests\\FunScript.Tests\\bin\\Debug\\FunScript.Interop.dll",
+  ],
+  "TestModules": ["tests\\FunScript.Tests\\bin\\Debug\\FunScript.Tests.dll"],
+  "TestingFramework": "NUnit2",
+  "InstrumentationStrategy": "InstanceConstructor",
+  "Debug": true
+}

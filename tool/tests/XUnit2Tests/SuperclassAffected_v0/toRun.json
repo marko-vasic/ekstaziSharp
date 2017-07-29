@@ -1,0 +1,4 @@
+﻿{
+  "toRun": [ "SuperclassAffected.Test" ],
+  "methodsToRun": [ "SuperclassAffected.Test.TestMethod" ]
+}

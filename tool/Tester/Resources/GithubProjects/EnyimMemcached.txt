@@ -1,0 +1,14 @@
+﻿{
+  "TestSource": "RemoteRepository",
+  "RepositoryURL": "https://github.com/enyim/EnyimMemcached.git",
+  "SolutionPath": "Enyim.Caching.sln",
+  "Commits": [
+	"a482dd4a3351da1b3ef9297d34df7741aa26d4b5",
+  ],
+  "ModulesUnderTest": ["test\\DynamicExpresso.UnitTest\\bin\\Debug\\DynamicExpresso.Core.dll"],
+  "TestModules": ["test\\DynamicExpresso.UnitTest\\bin\\Debug\\DynamicExpresso.UnitTest.dll"],
+  "TestingFramework": "NUnitV2",
+  "InstrumentationStrategy": "InstanceConstructor",
+  "RunInIsolation": true
+}
+

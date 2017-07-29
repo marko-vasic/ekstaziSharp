@@ -1,0 +1,12 @@
+{
+  "TestSource": "RemoteRepository",
+  "RepositoryURL": "https://github.com/AutoMapper/AutoMapper.git",
+  "SolutionPath": "src\\AutoMapper.sln",
+  "Commits": [
+    "8b60514ce3872d2b17308b699640a830e22270be"
+  ],
+  "ModulesUnderTest": ["src\\UnitTests\\bin\\Debug\\AutoMapper.dll"],
+  "TestModules": ["src\\UnitTests\\bin\\Debug\\AutoMapper.UnitTests.Net4.dll"],
+  "TestingFramework": "XUnitV2",
+  "InstrumentationStrategy": "InstanceConstructor"
+}

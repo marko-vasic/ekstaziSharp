@@ -1,0 +1,30 @@
+Coding Conventions
+
+Feel free to suggest changes, however, if not discussed and accepted,
+following conventions are used.
+For everything that is not clear from this file use following link:
+https://msdn.microsoft.com/en-us/library/ff926074.aspx as a reference
+
+Layout Conventions 
+-Four-characters indents, tabs saved as spaces.
+-Braces in a New Line, no Egiptian style.
+
+Commenting Conventions
+-Place the comment on a separate line, not at the end of the current
+ line.
+-Use XML Documentation Comments for fields, methods and class
+ comments.
+-No COMMENTED-OUT code in master branch, Ever.
+-Try to write consice and precise comments. Do not add comments just
+to fill-out the place, think about the value of your comment for other
+reader.  Good to have requirements section for each of your methods,
+that clearly states under which conditions (for what kind of inputs)
+your methods Gurantees to do what. E.g. requires that argument a is
+not null.
+
+Naming Conventions
+-No abbreviations in naming, except it is "well-known" or agreed upon.
+-Upper Camel Case for naming of all methods
+-Instance fields Lower Camel Case
+-Static fields Upper Camel Case
+-Always explicitly specify access modifiers

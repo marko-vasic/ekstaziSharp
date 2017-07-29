@@ -1,0 +1,6 @@
+﻿This test uses lambda function to see whether they are collected appropriately.
+Previously there was a bug that inspired this test to be made.
+The source of bug was a lambda function inside of a generic function.
+When instrumenting static field accesses, MonoCecil DeclaringType for a FieldReference
+returns different name than got through TypeDefinition, namely MonoCecil includes generic parameter
+in a name, e.g. <T>. This caused trouble with selection.

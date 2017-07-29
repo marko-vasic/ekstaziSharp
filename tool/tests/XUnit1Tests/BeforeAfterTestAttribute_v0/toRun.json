@@ -1,0 +1,4 @@
+﻿{
+  "toRun": [ "BeforeAfterTestAttribute.Test" ],
+  "methodsToRun": [ "BeforeAfterTestAttribute.Test.M1", "BeforeAfterTestAttribute.Test.M2" ]
+}

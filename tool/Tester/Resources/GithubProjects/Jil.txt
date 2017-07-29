@@ -1,0 +1,18 @@
+{
+  "TestSource": "LocalRepository",
+  "ProjectPath": "D:\\work\\projects\\UT_Austin\\Jil",
+  "SolutionPath": "Jil.sln",
+  "Commits": [
+    "94e64531e0847e143a9fbe9cf48e01a096564365",
+    "b4e3cda2b28a5723d6dd0aa4c354c5f9d0bfe5f9"
+  ],
+  "ModulesUnderTest": [
+    "JilTests\\bin\\Debug\\Jil.dll",
+    "JilTests\\bin\\Debug\\JilTests.dll"
+  ],
+  "TestModules": [
+    "JilTests\\bin\\Debug\\JilTests.dll"
+  ],
+  "TestingFramework": "MicrosoftUnitTesting", // not supported yet
+  "InstrumentationStrategy": "InstanceConstructor"
+}

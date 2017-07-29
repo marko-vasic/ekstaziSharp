@@ -1,0 +1,15 @@
+{
+  "TestSource": "LocalRepository",
+  "ProjectPath": "C:\\prog\\vnv\\examples\\libgit2sharp",
+  "SolutionPath": "LibGit2Sharp.sln",
+  "Commits": [
+    "38f046d83da3fb98b2d57fca1d428363dc31a960",
+    "3f9b415fa1edfc31ce1ec2b4b3d18441c34adfff",
+    "28135b003a005acf6d4d7d68c9c40f017e62c25a"
+  ],
+  "ModulesUnderTest": ["LibGit2Sharp.Tests\\bin\\Debug\\LibGit2Sharp.dll"],
+  "TestModules": ["LibGit2Sharp.Tests\\bin\\Debug\\LibGit2Sharp.Tests.dll"],
+  "TestingFramework": "XUnitV1",
+  "InstrumentationStrategy": "InstanceConstructor",
+  "RunInIsolation": false
+}

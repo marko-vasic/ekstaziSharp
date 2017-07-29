@@ -1,0 +1,4 @@
+﻿{
+  "toRun": [ "ExtensionMethods.Test" ],
+  "methodsToRun": [ "ExtensionMethods.Test.TestMethod" ]
+}

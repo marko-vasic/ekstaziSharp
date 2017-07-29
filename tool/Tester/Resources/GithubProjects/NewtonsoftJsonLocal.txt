@@ -1,0 +1,11 @@
+{
+  "TestSource": "LocalRepository",
+  "ProjectPath": "D:\\work\\projects\\UT_Austin\\Newtonsoft.Json",
+  "SolutionPath": "Src\\Newtonsoft.Json.Net40.sln",
+  "Commits": [
+    "be8ca7a8707de8be80db91e06e51537cd603b69f"  	     
+  ],
+  "ModulesUnderTest": ["Src\\Newtonsoft.Json.Tests\\bin\\Debug\\Net40\\Newtonsoft.Json.dll"],
+  "TestModules": ["Src\\Newtonsoft.Json.Tests\\bin\\Debug\\Net40\\Newtonsoft.Json.Tests.dll"],
+  "TestingFramework": "NUnitV2"
+}

@@ -1,0 +1,21 @@
+{
+  "TestSource": "LocalRepository",
+  "ProjectPath": "D:\\work\\projects\\UT_Austin\\SignalR",
+  "SolutionPath": "Microsoft.AspNet.SignalR.sln",
+  "Commits": [
+    "6f5c68bb602f72922df80dd3dbf7690d8728567d",
+    "83726e069c2c19a32a2e57a990facad17328906b"
+  ],
+  "ModulesUnderTest": [
+    "tests\\Microsoft.AspNet.SignalR.Tests\\bin\\Debug\\Microsoft.AspNet.SignalR.Client.dll",
+    "tests\\Microsoft.AspNet.SignalR.Tests\\bin\\Debug\\Microsoft.AspNet.SignalR.Core.dll",
+    "tests\\Microsoft.AspNet.SignalR.Tests\\bin\\Debug\\Microsoft.AspNet.SignalR.ServiceBus.dll",
+    "tests\\Microsoft.AspNet.SignalR.Tests\\bin\\Debug\\Microsoft.AspNet.SignalR.StressServer.dll",
+    "tests\\Microsoft.AspNet.SignalR.Tests\\bin\\Debug\\Microsoft.AspNet.SignalR.Tests.dll"
+  ],
+  "TestModules": [
+    "tests\\Microsoft.AspNet.SignalR.Tests\\bin\\Debug\\Microsoft.AspNet.SignalR.Tests.dll"
+  ],
+  "TestingFramework": "XUnitV1",
+  "InstrumentationStrategy": "NoInstrumentation"
+}

@@ -1,0 +1,4 @@
+﻿{
+  "toRun": [ "StaticField.Test", "StaticField.TestSystemFieldAccess" ],
+  "methodsToRun": [ "StaticField.Test.TestMethod", "StaticField.TestSystemFieldAccess.M1" ]
+}
