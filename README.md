@@ -11,6 +11,10 @@ Ekstazi#. Note that the first time all tests will be run in
 FluentValidation project. Afterwards, 0 tests should be run unless you
 modify FluentValidation project.
 
+More information about different settings for running Ekstazi# are
+work in progress, please stay tuned, or feel free to contact the
+authors.
+
 ## Citing
 
 If you would like to reference Ekstazi# in an academic publication, please cite our FSE '17 publication:
