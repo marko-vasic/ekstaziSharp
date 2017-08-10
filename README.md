@@ -1,4 +1,4 @@
-# Ekstazi# - Regression Test Selection for C#
+# Ekstazi# - Class-level Regression Test Selection for .NET
 
 ## Running
 
