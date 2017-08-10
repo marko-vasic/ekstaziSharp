@@ -476,7 +476,8 @@ namespace EkstaziSharp.Util
                 }
                 catch (Exception e)
                 {
-                    logger.Warn($"Cannot resolve type: {type.FullName}");
+                    // TODO: Consider to put higer log level
+                    logger.Debug($"Cannot resolve type: {type.FullName}");
                 }
                 if (definition != null)
                 {

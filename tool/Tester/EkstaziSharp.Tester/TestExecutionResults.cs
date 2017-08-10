@@ -260,8 +260,10 @@ namespace EkstaziSharp.Tester
 
         public override string ToString()
         {
-            string template = "Executed {0} tests in {1} seconds - passed {2} tests and failed {3} tests";
-            return string.Format(template, executedTestMethods.Count(), ExecutionTime, PassedTestMethodsCount, FailedTestMethodsCount);
+            // TODO: Add information about number of passed and failed tests once when you fix
+            // counting of test traits vs methods
+            string template = "Executed {0} tests in {1} seconds";
+            return string.Format(template, executedTestMethods.Count(), ExecutionTime);
         }
     }
 }
