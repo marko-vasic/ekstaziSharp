@@ -1,4 +1,4 @@
 ﻿{
   "toRun": [ "CatchBlock.Test" ],
-  "methodsToRun": [ "CatchBlock.Test.M1", "CatchBlock.Test.M2" ]
+  "methodsToRun": [ "CatchBlock.Test.M1" ]
 }

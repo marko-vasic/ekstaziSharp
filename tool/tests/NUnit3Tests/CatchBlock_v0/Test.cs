@@ -25,8 +25,5 @@ namespace CatchBlock
         {
             Assert.AreEqual(new C().M(), 2);
         }
-
-        [Test]
-        public void M2() { }
     }
 }
