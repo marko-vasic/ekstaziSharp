@@ -15,18 +15,24 @@
 using System.Collections;
 using System.Collections.Generic;
 using NUnit.Framework;
+using EkstaziSharp.Util;
+using System.IO;
 
 namespace EkstaziSharp.Tester.Tests
 {
     [TestFixture]
     public class NUnit3Tests
     {
-        private const string ClassLevelConfiguration = 
+        private static readonly string ProjectRelativePath =
+                    IOUtil.GetRelativePath(new DirectoryInfo(CommonPaths.TesterProjectBinDirectory), new DirectoryInfo(CommonPaths.NUnit3TestsDirectory));
+
+
+        private static readonly string ClassLevelConfiguration = 
             @"{{
                 ""TestSource"": ""TestProject"",
                 ""BuildStrategyType"": ""MSBuild14"",
                 ""DependencyManagerType"": ""Nuget"",
-                ""ProjectPath"": ""..\\..\\..\\tests\\NUnit3Tests"",
+                ""ProjectPath"": """ + ProjectRelativePath + @""",
                 ""Versions"":  [{0}],
                 ""TestingFramework"": ""NUnit3"",
                 ""InstrumentationStrategy"": ""InstanceConstructor"",
@@ -35,12 +41,12 @@ namespace EkstaziSharp.Tester.Tests
                 ""Debug"": true
              }}";
 
-        private const string MethodLevelConfiguration = 
+        private static readonly string MethodLevelConfiguration = 
             @"{{
                 ""TestSource"": ""TestProject"",
                 ""BuildStrategyType"": ""MSBuild14"",
                 ""DependencyManagerType"": ""Nuget"",
-                ""ProjectPath"": ""..\\..\\..\\tests\\NUnit3Tests"",
+                ""ProjectPath"": """ + ProjectRelativePath + @""",
                 ""Versions"":  [{0}],
                 ""TestingFramework"": ""NUnit3"",
                 ""InstrumentationStrategy"": ""InstanceConstructor"",
