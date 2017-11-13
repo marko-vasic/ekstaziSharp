@@ -20,6 +20,7 @@ using System;
 /// multiple SetUp and TearDown methods can be used in one test class.
 /// </summary>
 [TestFixture]
+[Ignore("Ignore test.")]
 public class NUnit3SetUpTest
 {
     int setUpCount = 0;

@@ -23,6 +23,7 @@ using Newtonsoft.Json;
 namespace EkstaziSharp.Tester.Tests
 {
     [TestFixture]
+    [Ignore("Ignore github tests.")]
     public class GithubProjectsTest
     {
         //[Test]

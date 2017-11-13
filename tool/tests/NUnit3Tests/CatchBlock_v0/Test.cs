@@ -17,6 +17,7 @@ using NUnit.Framework;
 namespace CatchBlock
 {
     [TestFixture]
+    [Ignore("Ignore test. It is supposed to be run only as a part of EkstaziSharp tests.")]
     public class Test
     {
         [Test]
