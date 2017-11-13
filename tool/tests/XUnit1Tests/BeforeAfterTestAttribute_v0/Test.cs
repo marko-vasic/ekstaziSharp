@@ -16,7 +16,7 @@ using Xunit;
 
 namespace BeforeAfterTestAttribute
 {
-    public static class Test
+    public class Test
     {
         [Fact, Trace]
         public static void M1()
