@@ -19,7 +19,7 @@
     <DebugSymbols>true</DebugSymbols>
     <DebugType>full</DebugType>
     <Optimize>false</Optimize>
-    <OutputPath>bin\Debug\</OutputPath>
+    <OutputPath>..\..\build\EkstaziSharp.Core\</OutputPath>
     <DefineConstants>DEBUG;TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
@@ -109,10 +109,11 @@
       <Link>Tester.licenseheader</Link>
     </None>
     <None Include="App.config" />
+    <Fakes Include="Fakes\DependencyMonitor.fakes" />
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\DependencyMonitor\EkstaziSharp.DependencyMonitor.csproj">
+    <ProjectReference Include="..\EkstaziSharp.DependencyMonitor\EkstaziSharp.DependencyMonitor.csproj">
       <Project>{d5f6ea8d-79e1-4ef5-bf67-9d0b3c561527}</Project>
       <Name>EkstaziSharp.DependencyMonitor</Name>
     </ProjectReference>

@@ -22,7 +22,7 @@
     <DebugSymbols>true</DebugSymbols>
     <DebugType>full</DebugType>
     <Optimize>false</Optimize>
-    <OutputPath>bin\Debug\</OutputPath>
+    <OutputPath>..\..\build\EkstaziSharp.Tester\</OutputPath>
     <DefineConstants>DEBUG;TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
@@ -247,16 +247,6 @@
     <None Include="Resources\GithubProjects\MonoCecil.txt" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\DependencyMonitor\EkstaziSharp.DependencyMonitor.csproj">
-      <Project>{d5f6ea8d-79e1-4ef5-bf67-9d0b3c561527}</Project>
-      <Name>EkstaziSharp.DependencyMonitor</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\EkstaziSharp\EkstaziSharp.csproj">
-      <Project>{04009238-55c1-40df-814f-3166fdb67658}</Project>
-      <Name>EkstaziSharp</Name>
-    </ProjectReference>
-  </ItemGroup>
-  <ItemGroup>
     <Service Include="{82A7F48D-3B50-4B1E-B82E-3ADA8210C358}" />
   </ItemGroup>
   <ItemGroup>
@@ -266,7 +256,16 @@
       <LastGenOutput>Resource.Designer.cs</LastGenOutput>
     </EmbeddedResource>
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <ProjectReference Include="..\EkstaziSharp.Core\EkstaziSharp.Core.csproj">
+      <Project>{04009238-55c1-40df-814f-3166fdb67658}</Project>
+      <Name>EkstaziSharp.Core</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\EkstaziSharp.DependencyMonitor\EkstaziSharp.DependencyMonitor.csproj">
+      <Project>{d5f6ea8d-79e1-4ef5-bf67-9d0b3c561527}</Project>
+      <Name>EkstaziSharp.DependencyMonitor</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
     <PropertyGroup>

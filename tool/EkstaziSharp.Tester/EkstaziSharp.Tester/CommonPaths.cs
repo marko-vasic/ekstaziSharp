@@ -62,7 +62,7 @@ namespace EkstaziSharp.Tester
         {
             get
             {
-                DirectoryInfo di = new DirectoryInfo(Path.Combine(TesterProjectBinDirectory, "..", "..", ".."));
+                DirectoryInfo di = new DirectoryInfo(Path.Combine(TesterProjectBinDirectory, "..", "..", "tool"));
                 return di.FullName;
             }
         }

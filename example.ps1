@@ -30,7 +30,7 @@ cd $oldDir
 
 # -Running tests using EkstaziSharp
 echo "Running tests using EkstaziSharp"
-./tool/Tester/bin/Debug/ekstaziSharpTester.exe `
+./build/EkstaziSharp.Tester/ekstaziSharpTester.exe `
               --testSource LocalProject `
 	      --projectPath ${HOME}\FluentValidation `
 	      --solutionPath FluentValidation.sln `

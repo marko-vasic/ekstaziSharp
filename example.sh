@@ -5,7 +5,7 @@ readonly MSBUILD_EXE="'C:\\Program Files (x86)\\MSBuild\\14.0\\Bin\\MSBuild.exe'
 readonly NUGET_EXE="${SCRIPT_DIR}/tool/tests/nuget.exe"
 readonly OUTPUT_FILE="example.log"
 readonly EXTRACT_RESULTS_SCRIPT="${SCRIPT_DIR}/tool/tests/extract_results.sh"
-readonly TESTER_EXE="${SCRIPT_DIR}/tool/Tester/bin/Debug/ekstaziSharpTester.exe"
+readonly TESTER_EXE="${SCRIPT_DIR}/build/EkstaziSharp.Tester/ekstaziSharpTester.exe"
 readonly SLN_FILE="${SCRIPT_DIR}/tool/ekstaziSharp.sln"
 
 if [ ! -f "${TESTER_EXE}" ]; then
