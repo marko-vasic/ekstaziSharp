@@ -29,6 +29,10 @@ If you would like to reference Ekstazi# in an academic publication, please cite 
 }
 ```
 
+## Project Structure Visualization
+
+![Visualization of this repo](./diagram.svg)
+
 ## Acknowledgements
 
 We thank the fellow students of EE 382C (Verification and Validation
